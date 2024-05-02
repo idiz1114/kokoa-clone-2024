@@ -7,10 +7,6 @@
         <meta content="코코아톡 클론 2024 연습입니다.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>welcome to kokoa talk</title>
-        <!--구글 폰트 임베드-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--상단 바를 3개 컬럼으로 만들고 필요한 아이콘 세팅함.-->
@@ -39,19 +35,13 @@
         <!--로그인에 필요한 정보 입력창-->
         <!--각 INPUT TYPE을 잘 지정해두면 어느 정도 유효값 검사를 하게 됨.-->
         <!--완벽하게 하려면 서버에도 유효값 검사해주는 작업을 해야 함-->
-        <form id="login-form">
+        <form id="login-form" action="friends.html" method="get" >
             <!--아이디, 비밀번호-->
-            <div>
-                <input type="text" placeholder="Email or phone number">
-            </div>
-            <div>
-                <input type="password" placeholder="Password">
-            </div>
+            <input name="username" type="text" placeholder="Email or phone number">
+            <input name="password" type="password" placeholder="Password">
             <!--로그인, 사인업 버튼-->
-            <div class="login-form__button">
+            <div class="login-form__buttons">
                 <input type="submit" value="Log in">
-            </div>
-            <div class="login-form__button">  
                 <input type="submit" value="Sign Up">
             </div>
             <!--계정 및 비밀번호 찾기 링크-->
