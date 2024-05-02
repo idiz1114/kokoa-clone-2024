@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="개인로고.png">
         <meta charset="UTF-8">
+        <meta content="코코아톡 클론 2024 연습입니다.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>welcome to kokoa talk</title>
     </head>
     <body>
+        <!--상단 바를 3개 컬럼으로 만들고 필요한 아이콘 세팅함.-->
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -21,17 +24,22 @@
                 <i class="fas fa-bolt"></i>
             </div>
         </div>
-
+        <!--화면 중앙에 들어가는 문구-->
         <header class="welcome-header">
             <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
             <p class="welcome-header__text">If you have a Kakao Account,<br>log in with your email or phone number.</p>
         </header>
-
+        <!--로그인에 필요한 정보 입력창-->
+        <!--각 INPUT TYPE을 잘 지정해두면 어느 정도 유효값 검사를 하게 됨.-->
+        <!--완벽하게 하려면 서버에도 유효값 검사해주는 작업을 해야 함-->
         <form id="login-form">
+            <!--아이디, 비밀번호-->
             <input type="text" placeholder="Email or phone number">
             <input type="password" placeholder="Password">
+            <!--로그인, 사인업 버튼-->
             <input type="submit" value="Log in">
             <input type="submit" value="Sign Up">
+            <!--계정 및 비밀번호 찾기 링크-->
             <a href="#">Find Kakao Account or Password</a>
         </form>
 
