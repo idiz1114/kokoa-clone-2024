@@ -65,6 +65,10 @@
     align-items: end;
 }
 
+.user-component__column i {
+    color: black;
+}
+
 .user-component__time {
     display: block;
     color: rgba(0,0,0,0.3);
