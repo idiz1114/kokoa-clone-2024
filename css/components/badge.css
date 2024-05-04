@@ -9,3 +9,16 @@
     font-weight: 600;
     align-items: center;
 }
+
+.badge-sm {
+    display: flex;
+    background-color: #FF6229;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    justify-content:center;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    align-items: center;
+}
