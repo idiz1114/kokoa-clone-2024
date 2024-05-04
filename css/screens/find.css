@@ -3,6 +3,7 @@
 }
 
 
+
 .find-screen__recommended-friends-header {
     margin-top: 16px;
     height: 36px;
@@ -26,8 +27,10 @@
 .find-screen__recommended-friends-main {
     display: flex;
     justify-content: center;
+    margin: 86px 0px ;
+    color: rgba(0,0,0,0.3);
 }
-}
+
 
 .find-screen__open-chat-header {
     margin-top: 16px;
@@ -46,4 +49,77 @@
 
 .find-screen__open-chat-header i {
     color: rgba(0,0,0,0.3);
+}
+
+.open-chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
+    border-bottom: solid 1px rgba(0,0,0,0.2);
+}
+
+.open-chat__thumbnail {
+    width: 84px;
+    height: 84px;
+    border-radius: 8px;
+    background-color: pink;
+}
+
+.open-chat__photo {
+    position: relative;
+}
+
+.open-chat__thumbnail-like-count {
+    width: auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 12px;
+    padding: 5px 8px;
+    color:white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.open-chat__thumbnail-like-count i {
+    padding-right: 5px;
+}
+
+.open-chat__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.open-chat__title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.open-chat__subtitle {
+    font-size: 16px;
+    color: rgba(0,0,0,0.3);
+    margin-bottom: 8px;
+}
+
+.open-chat__info {
+    display: flex;
+    align-items: center;
+}
+
+.open-chat__info img {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: pink;
+    margin-right: 5px;
+}
+
+.open-chat__member-count {
+    color: rgba(0,0,0,0.7);
+}
+
+.open-chat__member-status {
+    color: red;
 }
