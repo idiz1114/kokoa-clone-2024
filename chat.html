@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="개인로고.png">
+        <meta charset="UTF-8">
+        <meta content="코코아톡 클론 2024 연습입니다.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>welcome to kokoa talk</title>
+    </head>
+    <body id="chat-screen">
+        <!--상단 바-->
+        <div class="status-bar" id="chat-screen__status-bar">
+            <!--왼쪽 모서리-->
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <!--중간-->
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <!--오른쪽 모서리-->
+            <div class="status-bar__column">
+                <span>11%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <!--스크린 헤더-->
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Nicolas Serrano</h1>
+            </div>
+            <div class="alt-header__column">
+                <i class="fas fa-search fa-lg"></i>
+                <i class="fas fa-bars fa-lg"></i>
+            </div>
+        </header>
+        <main class="chat-screen">
+            <div class="chat__contents">
+                <span class="chat__time">Tuesday, June 30, 2020</span>
+                <div class="chat__messeges">
+                    <div class="chat__messeges-column">
+                        <img class="chat__messeges-profile" src="개인로고.png" alt="">
+                    </div>
+                    <div class="chat__messeges-column">
+                        <h3 class="chat__messeges-name">Nicolas Serrano</h3>
+                        <div class="chat__messeges-info">
+                            <span class="chat__messeges-text">안녕!</span>
+                            <span class="chat__messeges-time">21:27</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__mymesseges">
+                    <div class="chat__mymesseges-column">
+                        <div class="chat__mymesseges-info">
+                            <span class="chat__mymesseges-time">21:27</span>
+                            <span class="chat__mymesseges-text">안녕!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+        <script src="https://kit.fontawesome.com/ae9d124494.js" crossorigin="anonymous"></script>
+    </body>
+</html>
