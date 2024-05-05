@@ -1,0 +1,81 @@
+#chat-screen {
+    background-color: #ABC1D1;
+    height: 1000vh;
+}
+
+.chat__contents {
+    width: 100%;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat__time {
+    background-color: #92A4B2;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    margin-bottom: 24px;
+    border-radius: 20px;
+}
+
+.chat__messeges {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.chat__messeges-profile {
+    background-color: pink;
+    width: 60px;
+    height: 60px;
+    border-radius: 24px;
+    margin-right: 8px;
+}
+
+.chat__messeges-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.chat__messeges-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.chat__messeges-text {
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+    margin-right: 8px;
+}
+
+.chat__mymesseges {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.chat__mymesseges-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.chat__mymesseges-text {
+    background-color: #FEE500;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.chat__mymesseges-time {
+    margin-right: 8px;
+}
