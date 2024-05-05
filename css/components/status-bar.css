@@ -3,10 +3,14 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    position: sticky;
+    position: fixed;
     top:0;
     width: 100%;
     /*background-color: bisque;*/
+}
+
+#chat-screen__status-bar{
+    background-color: #ABC1D1;
 }
 
 .status-bar__column {
