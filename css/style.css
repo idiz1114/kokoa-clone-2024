@@ -11,6 +11,7 @@
 @import "components/badge.css";
 @import "components/divider.css";
 @import "components/icon-row.css";
+@import "components/alt-header.css";
 
 /* Screens */
 @import "screens/login.css";

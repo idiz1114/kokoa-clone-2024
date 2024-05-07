@@ -51,6 +51,7 @@
 .chat__messeges-text {
     background-color: white;
     border-radius: 12px;
+    border-top-left-radius: 0px;
     padding: 12px;
     margin-right: 8px;
 }
@@ -73,6 +74,7 @@
 .chat__mymesseges-text {
     background-color: #FEE500;
     border-radius: 12px;
+    border-top-right-radius: 0px;
     padding: 12px;
 }
 

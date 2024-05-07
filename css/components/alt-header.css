@@ -1,0 +1,45 @@
+
+.alt-header, .alt-header--chatting {
+    padding: 24px var(--horizontal-space);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 26.8px;
+}
+
+.alt-header--chatting {
+    background-color:  #ABC1D1;
+}
+
+.alt-header__title {
+    font-size: 24px;
+}
+
+.alt-header__column {
+    display: flex;
+    align-items: center;
+}
+
+
+.alt-header__column:first-child {
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.alt-header__column:nth-child(2) {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.alt-header__column:last-child {
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.alt-header__column:last-child i {
+    margin-left:16px;
+}
