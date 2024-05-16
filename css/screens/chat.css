@@ -1,6 +1,14 @@
+
+
 #chat-screen {
     background-color: #ABC1D1;
     height: 1000vh;
+}
+
+
+.chat-screen {
+    display: flex;
+    flex-direction: column;
 }
 
 .chat__contents {
@@ -80,4 +88,75 @@
 
 .chat__mymesseges-time {
     margin-right: 8px;
+}
+
+.messeges-input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+}
+
+.messeges-input i {
+    width:36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.yellow-button {
+    background-color: #FEE500;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messeges-input__box {
+    position: relative;
+    width:100%;
+    height:48px;
+}
+
+.messeges-input__box * {
+    margin-left: 4px;
+}
+
+.yellow-button i {
+    color:#191919;
+}
+
+.messeges-input__box input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border : solid 1px #E7E7E8;
+    background-color: #F8F8F8;
+    border-radius: 32px;
+    padding: 4px 0;
+    width:100%;
+    height: 48px;
+}
+
+.messeges-input__box i {
+    margin-left: 4px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messeges-input__button {
+    margin: auto 0;
+    display: flex;
+    position: absolute;
+    top:5px;
+    right:0;
 }
