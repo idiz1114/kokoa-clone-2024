@@ -81,12 +81,23 @@
 
 @keyframes fadeIn {
     from{
-        
         transform: translateX(20px);
     }
     to{
         opacity: 1;
     }
+}
+
+.messeges-input:focus-within i,
+.messeges-input:focus-within .messeges-input__button,
+.messeges-input:focus-within .yellow-button {
+    opacity: 0;
+}
+
+.messeges-input:focus-within input {
+    border-color: var(--yellow);
+    border:var(--yellow) solid 2px;
+    transform: translateX(-34px);
 }
 
 
@@ -141,15 +152,13 @@
     opacity:0;
     animation: moveUp 600ms ease-in-out forwards;
     animation-delay: 200ms;
+    transition: ;
 }   
-
-.messeges-input input:focus .messeges-input i {
-    display: none;
-}
 
 
 .messeges-input input {
     padding: 10px 16px;
+    transition :all 0.3s ease-in-out;
 }
 
 
@@ -159,6 +168,7 @@
     justify-content: center;
     align-items: center;
     color: grey;
+    transition :all 0.3s ease-in-out;
 }
 
 .yellow-button {
@@ -169,6 +179,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition :all 0.3s ease-in-out;
 }
 
 .messeges-input__box {
