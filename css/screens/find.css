@@ -71,6 +71,27 @@
     position: relative;
 }
 
+@keyframes heartBeat {
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color:tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-chat__photo:hover i {
+    will-change: transform;
+    animation: heartBeat 1s ease-in-out infinite;
+}
+
+
 .open-chat__thumbnail-like-count {
     width: auto;
     background-color: rgba(0,0,0,0.7);
@@ -83,6 +104,10 @@
     bottom: 8px;
     right: 8px;
 }
+
+
+
+
 
 .open-chat__thumbnail-like-count i {
     padding-right: 5px;
